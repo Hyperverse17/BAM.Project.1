@@ -1,0 +1,42 @@
+{
+	"editor.formatOnSave": true,
+    "workbench.iconTheme": "vscode-icons",
+	"html.format.wrapLineLength": 200,
+	"html.format.wrapAttributes": "aligned-multiple",
+	"terminal.integrated.fontFamily": "Meslo LG S for Powerline",
+	// Formateador prettier y vetur con prettier
+	"prettier.useTabs": true,
+	"prettier.printWidth": 200,
+	"prettier.quoteProps": "preserve",
+	"prettier.singleQuote": true,
+	"prettier.semi": false,
+	"prettier.trailingComma": "all",
+	"vetur.format.options.useTabs": true,
+	"vetur.format.defaultFormatterOptions": {
+		"prettier": {
+			"printWidth": 200,
+			"singleQuote": true,
+			"semi": false,
+			"trailingComma": "all"
+		},
+		"prettyhtml": {
+			"printWidth": 200,
+			"singleQuote": false,
+			"semi": false
+		}
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+	},
+    "window.zoomLevel": 1,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.startupEditor": "newUntitledFile",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
